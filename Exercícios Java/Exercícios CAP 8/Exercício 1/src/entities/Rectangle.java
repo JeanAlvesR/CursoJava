@@ -9,16 +9,16 @@ public class Rectangle {
         this.height = 0.0;
     }
 
-    public String area(){
-        return "AREA: "+String.format("%.2f",(width*height));
+    public double area(){
+        return (width*height);
     }
 
-    public String perimeter(){
-        return "PERIMETER: "+String.format("%.2f", (2*width + 2*height));
+    public double perimeter(){
+        return (2*width + 2*height);
     }
 
-    public String diagonal(){
-        return "DIAGONAL: "+String.format("%.2f",(Math.sqrt(Math.pow(width,2)+Math.pow(height,2))));
+    public double diagonal(){
+        return Math.sqrt(Math.pow(width,2)+Math.pow(height,2));
     }
 
 
