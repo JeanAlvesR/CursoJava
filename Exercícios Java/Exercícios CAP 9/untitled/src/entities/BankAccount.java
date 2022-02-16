@@ -39,4 +39,14 @@ public class BankAccount {
     public void withdraw(double value) {
         accountValue -= (5 + value);
     }
+
+    public String toString(){
+        return         "Account: "
+                +accountNumber
+                +", Holder: "
+                +holder
+                +", Balance: $ "
+                +String.format("%.2f",accountValue);
+
+    }
 }

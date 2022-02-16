@@ -53,18 +53,17 @@ public class Program {
             else {
                 bankAccount = new BankAccount(accountNumber, name);
             }
-        System.out.println("\nAccount data:\nAccount: "+bankAccount.getAccountNumber()+", Holder: "+bankAccount.getHolder()+", Balance: $ "+String.format("%.2f",bankAccount.getAccountValue()));
-
+        System.out.println();
+        System.out.println("Account data:\n"+ bankAccount);
         System.out.print("\nEnter a deposit value: ");
         double deposit = sc.nextDouble();
         bankAccount.deposit(deposit);
-        System.out.println("Updated account data:\nAccount number: "+bankAccount.getAccountNumber()+", Holder: "+bankAccount.getHolder()+", Balance: $ "+String.format("%.2f",bankAccount.getAccountValue()));
+        System.out.println("Updated account data:\n"+bankAccount);
 
         System.out.print("\nEnter a withdraw value: ");
         double withdraw = sc.nextDouble();
         bankAccount.withdraw(withdraw);
-        System.out.println("Updated account data:\nAccount number: "+bankAccount.getAccountNumber()+", Holder: "+bankAccount.getHolder()+", Balance: $ "+String.format("%.2f",bankAccount.getAccountValue())+"\n\n");
-
+        System.out.println("Updated account data:\n"+bankAccount);
 
         sc.close();
     }
