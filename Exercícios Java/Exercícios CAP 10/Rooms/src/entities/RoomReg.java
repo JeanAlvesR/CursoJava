@@ -34,4 +34,10 @@ public class RoomReg {
     public void setRoom(int room) {
         this.room = room;
     }
+
+    public String toString() {
+        return room+": "+name
+                +", "
+                +email;
+    }
 }
