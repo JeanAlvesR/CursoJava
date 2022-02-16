@@ -25,5 +25,6 @@ public class Program {
         double avg = sum/n;
 
         System.out.printf("AVERAGE PRICE = %.2f\n",avg);
+        sc.close();
     }
 }
