@@ -57,7 +57,7 @@ public class Program {
         if(j != -1 ){
             System.out.print("Enter the percentage: ");
             float increase = sc.nextFloat();
-            vect[j].salaryIncrease(increase);
+            vect[j].increaseSalary(increase);
         }
         else{
             System.out.println("Id not registered!\n");

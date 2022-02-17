@@ -31,7 +31,7 @@ public class Employee {
         return salary;
     }
 
-    public void salaryIncrease (double percentagem){
+    public void increaseSalary (double percentagem){
         salary *= (1+percentagem/100);
     }
     public String toString(){
