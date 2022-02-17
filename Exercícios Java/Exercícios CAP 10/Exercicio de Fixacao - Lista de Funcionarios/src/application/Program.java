@@ -20,6 +20,8 @@ Final: Mostrar lista atualizada.
 
 package application;
 
+import entities.Employee;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -27,10 +29,60 @@ public class Program {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
 
+        Employee[] vect = new Employee[n];
 
+        for (int i = 0; i< vect.length; i++){
+            System.out.println("Employee #"+(i+1));
+            System.out.print("Id: ");
+            int id = sc.nextInt();
+            int j = validator(id, vect);
+                if(j !=-1){
+                    System.out.println("ID already registered!\n");
+                    break;
+                }
+            System.out.print("Name: ");
+            sc.nextLine();
+            String name = sc.nextLine();
+            System.out.print("Salary: ");
+            double salary = sc.nextDouble();
+            vect[i] = new Employee(id, name, salary);
+            System.out.println();
+        }
 
+        System.out.print("\nEnter the employee id that will have salary increase: ");
+        int id = sc.nextInt();
+        int j = validator(id, vect);
+        if(j != -1 ){
+            System.out.print("Enter the percentage: ");
+            float increase = sc.nextFloat();
+            vect[j].salaryIncrease(increase);
+        }
+        else{
+            System.out.println("Id not registered!\n");
+        }
+
+        System.out.println("\nList of employees:");
+        for (Employee x :
+             vect) {
+            if(x == null){
+                break;
+            }
+            System.out.println(x.toString());
+        }
 
         sc.close();
     }
-}
+
+    public static int validator(int id, Employee[] vect){
+        for (int i = 0; i< vect.length; i++){
+            if(vect[i]!=null) {
+                if (vect[i].getId() == id) {
+                    return i;
+                }
+            }
+        }
+        return -1;
+    }
+}//Final da classe

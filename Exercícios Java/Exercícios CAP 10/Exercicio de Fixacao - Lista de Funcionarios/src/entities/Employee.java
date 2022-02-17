@@ -31,7 +31,7 @@ public class Employee {
         return salary;
     }
 
-    public void salaryIncrease (int x){
+    public void salaryIncrease (float x){
         salary *= (1+x/100);
     }
     public String toString(){
