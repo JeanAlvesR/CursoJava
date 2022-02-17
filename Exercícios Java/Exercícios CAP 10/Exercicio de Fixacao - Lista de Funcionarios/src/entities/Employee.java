@@ -1,11 +1,11 @@
 package entities;
 
 public class Employee {
-    private int id;
+    private Integer id;
     private String name;
-    private double salary;
+    private Double salary;
 
-    public Employee(int id, String name, double salary) {
+    public Employee(Integer id, String name, Double salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
@@ -15,7 +15,7 @@ public class Employee {
         return id;
     }
 
-    public void setId(int id) { //Considerei que o Id poderá ser mudado futuramente.
+    public void setId(Integer id) { //Considerei que o Id poderá ser mudado futuramente.
         this.id = id;
     }
 
@@ -31,8 +31,8 @@ public class Employee {
         return salary;
     }
 
-    public void salaryIncrease (float x){
-        salary *= (1+x/100);
+    public void salaryIncrease (double percentagem){
+        salary *= (1+percentagem/100);
     }
     public String toString(){
 
@@ -42,4 +42,4 @@ public class Employee {
                 +", "
                 +String.format("%.2f",salary);
     }
-}
+}//Final da Classe
