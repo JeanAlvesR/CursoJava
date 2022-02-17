@@ -2,10 +2,11 @@ package application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Instant;
 import java.util.Date;
 import java.util.TimeZone;
 
-public class Program {
+public class ProgramFormatDate {
     public static void main(String[] args) throws ParseException {
         SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy");
         SimpleDateFormat sdf2 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
@@ -14,6 +15,7 @@ public class Program {
         sdf3.setTimeZone(TimeZone.getTimeZone("GMT"));
         Date y1 = sdf1.parse("17/02/2022");
         Date y2 = sdf2.parse("17/02/2022 10:34:50");
+        Date y3 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
 
         Date x = new Date();//Data Atual.
         Date x2 = new Date(System.currentTimeMillis()); //Hora atual também
