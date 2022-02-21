@@ -28,4 +28,11 @@ public class Individual extends TaxPayer{
         }
         return tax*annualIncome;
     }
+
+    public String toString(){
+
+        return name
+                +": $ "
+                + String.format("%.2f",tax());
+    }
 }

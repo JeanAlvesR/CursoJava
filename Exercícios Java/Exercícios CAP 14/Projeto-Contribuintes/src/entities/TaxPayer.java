@@ -1,7 +1,7 @@
 package entities;
 
 public abstract class  TaxPayer {
-    private String name;
+    protected String name;
     protected Double annualIncome;
 
     public TaxPayer(){}
