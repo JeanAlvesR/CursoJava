@@ -21,9 +21,8 @@ public class Company extends TaxPayer{
     }
 
     @Override
-    public Double tax(){
-        double tax = (numberOfEmployees>10) ? 0.14 : 0.16;
-        return tax*annualIncome;
+    public Double tax(){ //Verificar se roda certinho...
+        return ((numberOfEmployees>10) ? 0.14 : 0.16) * annualIncome;
     }
 
     public String toString(){
