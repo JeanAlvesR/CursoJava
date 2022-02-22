@@ -9,7 +9,8 @@ public class Program3 {
         String[] lines = new String[]{"Good Morning","Good Afternoon","Good Night"};
         String path = "/home/jean/Downloads/arquivoCriadoNoJava.txt";
 
-        try(BufferedWriter bw = new BufferedWriter(new FileWriter(path,true))){
+        //Se for só um parametro, ele recria ou cria o arquivo. Se passar o parametro true, ele incompora o que já existia antes com o mesmo nome.
+        try(BufferedWriter bw = new BufferedWriter(new FileWriter(path))){
             for(String line: lines){
                 bw.write(line);
                 bw.newLine();
