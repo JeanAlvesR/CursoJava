@@ -22,11 +22,12 @@ public class Company extends TaxPayer{
 
     @Override
     public Double tax(){ //Verificar se roda certinho...
-        return ((numberOfEmployees>10) ? 0.14 : 0.16) * annualIncome;
+        return ((numberOfEmployees>10) ? 0.14 : 0.16) * getAnnualIncome();
     }
 
+    @Override
     public String toString(){
-        return name
+        return getName()
                 +": $ "
                 + String.format("%.2f",tax());
     }
