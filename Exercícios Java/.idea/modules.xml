@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 13/Comment/Comment.iml" filepath="$PROJECT_DIR$/Exercícios CAP 13/Comment/Comment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 13/ContratoDeFuncionarios/ContratoDeFuncionarios.iml" filepath="$PROJECT_DIR$/Exercícios CAP 13/ContratoDeFuncionarios/ContratoDeFuncionarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 10/Exemplo Lista/Exemplo Lista.iml" filepath="$PROJECT_DIR$/Exercícios CAP 10/Exemplo Lista/Exemplo Lista.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 13/ExemploEnumeracao/ExemploEnumeracao.iml" filepath="$PROJECT_DIR$/Exercícios CAP 13/ExemploEnumeracao/ExemploEnumeracao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 10/Exercicio de Fixacao - Lista de Funcionarios/Exercicio de Fixacao - Lista de Funcionarios.iml" filepath="$PROJECT_DIR$/Exercícios CAP 10/Exercicio de Fixacao - Lista de Funcionarios/Exercicio de Fixacao - Lista de Funcionarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 8/ExercicioFixacao/ExercicioFixacao.iml" filepath="$PROJECT_DIR$/Exercícios CAP 8/ExercicioFixacao/ExercicioFixacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercicios CAP 18/Exercicios CAP 18.iml" filepath="$PROJECT_DIR$/Exercicios CAP 18/Exercicios CAP 18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 8/Exercício 1/Exercício 1.iml" filepath="$PROJECT_DIR$/Exercícios CAP 8/Exercício 1/Exercício 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 11/Exercícios CAP 11.iml" filepath="$PROJECT_DIR$/Exercícios CAP 11/Exercícios CAP 11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 14/Exercícios CAP 14.iml" filepath="$PROJECT_DIR$/Exercícios CAP 14/Exercícios CAP 14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 17/Exercícios CAP 17.iml" filepath="$PROJECT_DIR$/Exercícios CAP 17/Exercícios CAP 17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 9/Exercícios CAP 9.iml" filepath="$PROJECT_DIR$/Exercícios CAP 9/Exercícios CAP 9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Exercícios Java.iml" filepath="$PROJECT_DIR$/.idea/Exercícios Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 10/Rooms/Rooms.iml" filepath="$PROJECT_DIR$/Exercícios CAP 10/Rooms/Rooms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios CAP 10/Vetor de Objetos/Vetor de Objetos.iml" filepath="$PROJECT_DIR$/Exercícios CAP 10/Vetor de Objetos/Vetor de Objetos.iml" />
+    </modules>
+  </component>
+</project>

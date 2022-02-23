@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ef5139b-4211-4150-9161-b9a182d27b78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/AluguelCarro.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/out/production/AluguelCarro/model/application/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/out/production/AluguelCarro/model/entities/CarRental.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/out/production/AluguelCarro/model/entities/Invoice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/out/production/AluguelCarro/model/entities/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/out/production/AluguelCarro/model/services/BrazilTaxService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/out/production/AluguelCarro/model/services/RentalService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/src/model/application/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/src/model/entities/CarRental.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/src/model/entities/Invoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/src/model/entities/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/src/model/services/BrazilTaxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/src/model/services/RentalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercicios CAP 18/src/model/services/TaxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios CAP 10/Exemplo Lista/Exemplo Lista.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios CAP 10/Exercicio de Fixacao - Lista de Funcionarios/Exercicio de Fixacao - Lista de Funcionarios.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios CAP 10/Rooms/Rooms.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios CAP 10/Vetor de Objetos/Vetor de Objetos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios CAP 13/Comment/Comment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios CAP 13/ContratoDeFuncionarios/ContratoDeFuncionarios.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios CAP 13/ExemploEnumeracao/ExemploEnumeracao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios CAP 8/ExercicioFixacao/ExercicioFixacao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercícios CAP 8/Exercício 1/Exercício 1.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="25Vt9Ur6EdiDSNVgH7cUtF5w2m3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ef5139b-4211-4150-9161-b9a182d27b78" name="Changes" comment="" />
+      <created>1645623937264</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645623937264</updated>
+      <workItem from="1645623938954" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
