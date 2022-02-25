@@ -5,6 +5,7 @@ import entities.enums.WorkerLevel;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Objects;
 
 public class Worker {
     private String name;
@@ -84,5 +85,6 @@ public class Worker {
         }
         return  sum;
     }
+
 }
 

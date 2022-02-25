@@ -35,4 +35,6 @@ public class Individual extends TaxPayer{
                 +": $ "
                 + String.format("%.2f",tax());
     }
+
+
 }
